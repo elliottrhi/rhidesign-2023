@@ -1,5 +1,5 @@
 import { Gallery } from "components/Gallery";
-import { FormspreeForm } from "components/FormspreeForm/formspreeForm";
+import { FormspreeForm } from "components/FormspreeForm";
 import { ProjectSearch } from "components/ProjectSearch";
 import { ProjectFeatures } from "components/ProjectFeatures";
 import { ServicesTable } from "components/ServicesTable";
