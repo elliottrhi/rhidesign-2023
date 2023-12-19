@@ -1,1 +1,1 @@
-export * from "/FormspreeForm";
+export * from "./FormspreeForm";
