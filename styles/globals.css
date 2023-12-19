@@ -462,7 +462,7 @@ a {
     color: #FFFE98;
 }
 
-.rainbow-fill {
+.rainbow-fill:hover {
 	background-color: #FE95FE;
 	animation: rainbow-fill 5s ease infinite;
 	-webkit-animation: rainbow-fill 5s ease infinite;
