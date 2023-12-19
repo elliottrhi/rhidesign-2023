@@ -63,7 +63,7 @@ export const ProjectFeatures = ({projectName, projectDate, technologies, brandin
                     {projectDate}
                 </div>
                 <div className="detail-content flex flex-col items-start font-xs uppercase">
-                    //&nbsp; Created with {technologies}
+                    Created with {technologies}
                 </div>
             </div>
         </div>

@@ -6,7 +6,7 @@ export const FormspreeForm = ({formId}) => {
     console.log("FORM ID: ", formId);
     const [state, handleSubmit] = useForm(formId);
     if (state.succeeded) {
-        return <p className="max-w-[1440px] my-5 mx-[50px] text-xl">Thanks for your message!  I'll be in touch soon. <span class="wave">👋</span></p>;
+        return <p className="max-w-[1440px] my-5 mx-[50px] text-xl">Thanks for your message!  I&#39;ll be in touch soon. <span class="wave">👋</span></p>;
     }
     return (
         <div className="min-w-[300px] max-w-[720px] mx-[30px] my-5">
