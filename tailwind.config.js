@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        heading: ["Aboreto", "cursive"],
+        heading: ["Roboto", "cursive"],
         body: ["Poppins", "sans-serif"],
       },
     },
