@@ -2,6 +2,7 @@ import {Poppins, Roboto} from 'next/font/google';
 import "../styles/globals.css";
 import { getNav } from 'utils/getNav';
 import { Navigation } from 'components/Navigation';
+import { Footer } from 'components/Footer';
 config.autoAddCss = false;
 
 const poppins = Poppins({
@@ -28,6 +29,7 @@ export default async function RootLayout({children}){
             callToActionLabel={data.callToActionLabel}
             items={data.mainMenuItems} />
             {children}
+            <Footer items={data.mainMenuItems} />
         </body>
     </html>
     );
