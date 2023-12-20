@@ -1,4 +1,5 @@
-import { useRouter } from "next/router";
+"use client";
+import { useRouter, usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Filters } from "./Filters/Filters";
 import { SearchResults } from "./SearchResults";
@@ -9,7 +10,8 @@ export const ProjectSearch = () => {
     const [projects, setProjects] = useState([]);
     const [totalResults, setTotalResults] = useState(0);
     const pageSize = 3;
-    const router = useRouter()
+    const router = useRouter();
+    const pathname = usePathname();
 
     const search = async () => {
         const { page, branding, webDesign, webDev, graphicDesign, motionDesign } = queryString.parse(window.location.search);
@@ -51,14 +53,9 @@ export const ProjectSearch = () => {
             graphicDesign,
             motionDesign 
         } = queryString.parse(window.location.search);
-        await router.push(
-            `${router.query.slug.join("/")}?page=${pageNumber}&branding=${branding === "true"}&webDesign=${webDesign === "true"}&webDev=${webDev === "true"}&graphicDesign=${graphicDesign === "true"}&motionDesign=${motionDesign === "true"}`,
-            null,
-            {
-                shallow: true,
-            }
+        router.push(
+            `${pathname}?page=${pageNumber}&branding=${branding === "true"}&webDesign=${webDesign === "true"}&webDev=${webDev === "true"}&graphicDesign=${graphicDesign === "true"}&motionDesign=${motionDesign === "true"}`
         );
-        search();
     };
 
     useEffect(() => {
@@ -69,14 +66,9 @@ export const ProjectSearch = () => {
         // update our browser url
         // search
         console.log("FILTERS: ", branding, webDesign, webDev, graphicDesign, motionDesign);
-        await router.push(
-            `${router.query.slug.join("/")}?page=1&branding=${!!branding}&webDesign=${!!webDesign}&webDev=${!!webDev}&graphicDesign=${!!graphicDesign}&motionDesign=${!!motionDesign}`,
-            null,
-            {
-                shallow: true,
-            }
+        router.push(
+            `${pathname}?page=1&branding=${!!branding}&webDesign=${!!webDesign}&webDev=${!!webDev}&graphicDesign=${!!graphicDesign}&motionDesign=${!!motionDesign}`
         );
-        search();
     };
 
     return (

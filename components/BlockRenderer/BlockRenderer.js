@@ -1,3 +1,4 @@
+"use client";
 import { Gallery } from "components/Gallery";
 import { FormspreeForm } from "components/FormspreeForm";
 import { ProjectSearch } from "components/ProjectSearch";
@@ -16,8 +17,6 @@ import { TickItem } from "components/TickItem";
 import { Wrapper } from "components/Wrapper";
 import { theme } from "theme";
 import Image from "next/image";
-
-
 
 export const BlockRenderer = ({blocks}) => {
     return blocks.map(block => {

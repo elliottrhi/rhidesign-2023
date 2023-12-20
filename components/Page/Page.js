@@ -1,5 +1,5 @@
 import { BlockRenderer } from "components/BlockRenderer";
-import { Navigation } from "components/Navigation_new";
+import { Navigation } from "components/Navigation";
 import { Footer } from "components/Footer";
 
 export const Page = (props) => {
