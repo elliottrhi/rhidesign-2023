@@ -1,7 +1,7 @@
 export const Footer = ({ items }) => {
     return ( 
         <footer className="mt-[30px] m-auto w-full max-w-[1440px]">
-            <div className="footer__inner mb-[30px] mx-[30px]">
+            <div className="footer__inner mb-[30px] mx-[30px] md:mx-[50px] lg:mx-[50px]">
                 <div className="footer__container">
                     <div className="footer__container__top grid-cols-1">
                         <div className="footer__logo md:mt-[30px] md:ml-[30px] md:mb-[0px] mt-[25px] ml-[25px] mb-[15px]">

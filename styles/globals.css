@@ -1006,16 +1006,29 @@ a.footer__link-item {
 	}
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
 	.wrapper {
-		max-width: 665px;
+		max-width: 1440px;
 		margin-top: 115px;
-		margin-left: 0 auto;
-		margin-right: 0 auto;
+		margin-left: 50px auto;
+		margin-right: 50px auto;
 	}
 
 	.project-card {
 		min-width: 300px;
 		max-width: 300px;
 	}
+}
+
+@media only screen and (min-width: 1025px) {
+	.wrapper {
+		max-width: 1440px;
+		margin-top: 115px;
+		margin-left: 50px auto;
+		margin-right: 50px auto;
+	}
+}
+
+body {
+	min-height: 100vh;
 }
