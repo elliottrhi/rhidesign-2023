@@ -3,7 +3,6 @@ import "../styles/globals.css";
 import { getNav } from 'utils/getNav';
 import { Navigation } from 'components/Navigation';
 import { Footer } from 'components/Footer';
-config.autoAddCss = false;
 
 const poppins = Poppins({
     subsets: ["latin"],
