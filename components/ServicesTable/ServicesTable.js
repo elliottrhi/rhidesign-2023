@@ -32,7 +32,7 @@ export const ServicesTable = () => {
         },
         {
             title: "Motion Design",
-            desc: "With a keen eye for interactivity and memorable digital moments, I craft unique animations that help breathe life into your brand or business.",
+            desc: "With a keen eye for interactivity and memorable digital moments, I craft unique graphical animations and kinetic typography that help to captivate your audience.",
         },
     ];
 
