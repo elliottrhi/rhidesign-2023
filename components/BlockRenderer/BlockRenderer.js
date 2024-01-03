@@ -57,6 +57,9 @@ export const BlockRenderer = ({blocks}) => {
                     key={block.id}
                     projectName={block.attributes.project_name}
                     projectDate={block.attributes.project_date} 
+                    projectDescription={block.attributes.project_description} 
+                    outboundLinkUrl={block.attributes.outbound_link_url}
+                    outboundLinkName={block.attributes.outbound_link_name} 
                     technologies={block.attributes.technologies}
                     branding={block.attributes.branding}
                     webDev={block.attributes.web_dev}

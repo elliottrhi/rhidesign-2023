@@ -17,12 +17,12 @@ export const Gallery = ({ columns, cropImages, items }) => {
 
   const columnWidth = 100 / columns;
   return (
-    <div className="flex flex-wrap max-w-5xl mx-auto">
+    <div className="gallery-xl flex max-w-[1330px] mx-auto">
       {items.map((item) => (
         <div
           key={item.id}
           style={{ width: `${columnWidth}%` }}
-          className="p-5 flex-grow"
+          className="pl-[10px] flex flex-grow gallery-img"
         >
           <Image
             src={item.attributes.url}

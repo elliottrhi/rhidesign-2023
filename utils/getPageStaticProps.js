@@ -39,6 +39,12 @@ export const getPageStaticProps = async (context) => {
                   webDesign
                   graphicDesign
                   motionDesign
+                  projectName
+                  projectDate
+                  projectDescription
+                  technologies
+                  outboundLinkName
+                  outboundLinkUrl
                 }
                 featuredImage {
                   node {

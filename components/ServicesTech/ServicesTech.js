@@ -43,37 +43,37 @@ export const ServicesTech = () => {
                 </svg>
             </div>
             <div className="mx-2" id="threejs">
-                <svg role="img" aria-labelledby="Three.js" className="techLogo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="50">
+            <svg role="img" aria-labelledby="Three.js" className="techLogo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="50">
                     <g>
-                        <line x1="245.8" y1="362.4" x2="283.7" y2="513.3"/>
-                        <line x1="395.5" y1="404.8" x2="245.8" y2="362.4"/>
-                        <line x1="283.7" y1="513.3" x2="395.5" y2="404.8"/>
-                        <path d="M134,470.9"/>
-                        <line x1="283.7" y1="513.3" x2="134" y2="470.9"/>
-                        <path d="M134,470.9"/>
-                        <polyline points="134,470.9 171.9,621.9 283.7,513.3  "/>
-                        <line x1="134" y1="470.9" x2="245.8" y2="362.4"/>
-                        <line x1="245.8" y1="362.4" x2="357.7" y2="253.8"/>
-                        <line x1="357.7" y1="253.8" x2="469.5" y2="145.3"/>
-                        <line x1="319.8" y1="102.9" x2="357.7" y2="253.8"/>
-                        <line x1="357.7" y1="253.8" x2="207.9" y2="211.5"/>
-                        <line x1="207.9" y1="211.5" x2="245.8" y2="362.4"/>
-                        <line x1="245.8" y1="362.4" x2="96.1" y2="320"/>
-                        <line x1="96.1" y1="320" x2="134" y2="470.9"/>
-                        <line x1="58.2" y1="169.1" x2="96.1" y2="320"/>
-                        <line x1="207.9" y1="211.5" x2="58.2" y2="169.1"/>
-                        <line x1="96.1" y1="320" x2="207.9" y2="211.5"/>
-                        <line x1="207.9" y1="211.4" x2="319.8" y2="102.9"/>
-                        <line x1="319.8" y1="102.9" x2="170" y2="60.5"/>
-                        <line x1="170" y1="60.5" x2="207.9" y2="211.4"/>
-                        <polyline points="58.2,169.1 20.3,18.1 170,60.5  "/>
-                        <line x1="58.2" y1="169.1" x2="170" y2="60.5"/>
-                        <polyline points="507.4,296.2 619.2,187.7 469.5,145.3  "/>
-                        <line x1="469.5" y1="145.3" x2="507.4" y2="296.2"/>
-                        <line x1="507.4" y1="296.2" x2="357.7" y2="253.8"/>
-                        <line x1="357.7" y1="253.8" x2="395.5" y2="404.8"/>
-                        <line x1="395.5" y1="404.8" x2="507.4" y2="296.2"/>
-                        <line x1="469.5" y1="145.3" x2="319.8" y2="102.9"/>
+                        <line stroke-width="5" stroke="currentColor" fill="currentColor" x1="245.8" y1="362.4" x2="283.7" y2="513.3"/>
+                        <line stroke-width="5" stroke="currentColor" fill="currentColor" x1="395.5" y1="404.8" x2="245.8" y2="362.4"/>
+                        <line stroke-width="5" stroke="currentColor" fill="currentColor" x1="283.7" y1="513.3" x2="395.5" y2="404.8"/>
+                        <path stroke="currentColor" fill="currentColor" d="M134,470.9"/>
+                        <line stroke-width="5" stroke="currentColor" fill="currentColor" x1="283.7" y1="513.3" x2="134" y2="470.9"/>
+                        <path stroke="currentColor" fill="currentColor" d="M134,470.9"/>
+                        <polyline stroke="currentColor" stroke-width="5" fill="none" points="134,470.9 171.9,621.9 283.7,513.3  "/>
+                        <line stroke-width="5" stroke="currentColor" fill="currentColor" x1="134" y1="470.9" x2="245.8" y2="362.4"/>
+                        <line stroke-width="5" stroke="currentColor" fill="currentColor" x1="245.8" y1="362.4" x2="357.7" y2="253.8"/>
+                        <line stroke-width="5" stroke="currentColor" fill="currentColor" x1="357.7" y1="253.8" x2="469.5" y2="145.3"/>
+                        <line stroke-width="5" stroke="currentColor" fill="currentColor" x1="319.8" y1="102.9" x2="357.7" y2="253.8"/>
+                        <line stroke-width="5" stroke="currentColor" fill="currentColor" x1="357.7" y1="253.8" x2="207.9" y2="211.5"/>
+                        <line stroke-width="5" stroke="currentColor" fill="currentColor" x1="207.9" y1="211.5" x2="245.8" y2="362.4"/>
+                        <line stroke-width="5" stroke="currentColor" fill="currentColor" x1="245.8" y1="362.4" x2="96.1" y2="320"/>
+                        <line stroke-width="5" stroke="currentColor" fill="currentColor" x1="96.1" y1="320" x2="134" y2="470.9"/>
+                        <line stroke-width="5" stroke="currentColor" fill="currentColor" x1="58.2" y1="169.1" x2="96.1" y2="320"/>
+                        <line stroke-width="5" stroke="currentColor" fill="currentColor" x1="207.9" y1="211.5" x2="58.2" y2="169.1"/>
+                        <line stroke-width="5" stroke="currentColor" fill="currentColor" x1="96.1" y1="320" x2="207.9" y2="211.5"/>
+                        <line stroke-width="5" stroke="currentColor" fill="currentColor" x1="207.9" y1="211.4" x2="319.8" y2="102.9"/>
+                        <line stroke-width="5" stroke="currentColor" fill="currentColor" x1="319.8" y1="102.9" x2="170" y2="60.5"/>
+                        <line stroke-width="5" stroke="currentColor" fill="currentColor" x1="170" y1="60.5" x2="207.9" y2="211.4"/>
+                        <polyline stroke="currentColor" stroke-width="5" fill="none" points="58.2,169.1 20.3,18.1 170,60.5  "/>
+                        <line stroke-width="5" stroke="currentColor" fill="currentColor" x1="58.2" y1="169.1" x2="170" y2="60.5"/>
+                        <polyline stroke="currentColor" stroke-width="5" fill="none" points="507.4,296.2 619.2,187.7 469.5,145.3  "/>
+                        <line stroke-width="5" stroke="currentColor" fill="currentColor" x1="469.5" y1="145.3" x2="507.4" y2="296.2"/>
+                        <line stroke-width="5" stroke="currentColor" fill="currentColor" x1="507.4" y1="296.2" x2="357.7" y2="253.8"/>
+                        <line stroke-width="5" stroke="currentColor" fill="currentColor" x1="357.7" y1="253.8" x2="395.5" y2="404.8"/>
+                        <line stroke-width="5" stroke="currentColor" fill="currentColor" x1="395.5" y1="404.8" x2="507.4" y2="296.2"/>
+                        <line stroke-width="5" stroke="currentColor" fill="currentColor" x1="469.5" y1="145.3" x2="319.8" y2="102.9"/>
                     </g>
                 </svg>
             </div>
@@ -124,7 +124,7 @@ export const ServicesTech = () => {
             </div>
             
             <div className="mx-2" id="indesign">
-                <svg role="img" aria-labelledby="Adobe InDesign" width="46" height="44" viewBox="0 0 46 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg role="img" aria-labelledby="Adobe InDesign" className="techLogo" width="46" height="44" viewBox="0 0 46 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M8.01416 0.0625C3.60791 0.0625 0.0454102 3.625 0.0454102 8.03125V35.9688C0.0454102 40.375 3.60791 43.9375 8.01416 43.9375H37.0767C41.4829 43.9375 45.0454 40.375 45.0454 35.9688V8.03125C45.0454 3.625 41.4829 0.0625 37.0767 0.0625H8.01416ZM29.2204 9.68125H33.0267C33.1204 9.6625 33.1954 9.7375 33.2142 9.8125V27.7C33.2142 28.0375 33.2329 28.4125 33.2517 28.825C33.2892 29.2188 33.3079 29.5937 33.3267 29.9125C33.3267 30.0437 33.2704 30.1562 33.1392 30.2125C32.1642 30.625 31.1329 30.925 30.0829 31.1125C29.1454 31.2813 28.1704 31.375 27.1954 31.375C25.8079 31.3938 24.4204 31.1125 23.1642 30.5312C21.9829 29.9875 21.0079 29.0875 20.3329 27.9812C19.6392 26.8375 19.3017 25.4125 19.3017 23.7062C19.2829 22.3187 19.6392 20.95 20.3329 19.75C21.0454 18.5312 22.0767 17.5187 23.3142 16.8438C24.6267 16.1125 26.2017 15.7562 28.0579 15.7562C28.1517 15.7562 28.2829 15.7563 28.4517 15.775C28.6204 15.7937 28.8079 15.7937 29.0329 15.8125V9.8875C29.0329 9.75625 29.0892 9.68125 29.2204 9.68125ZM12.4767 11.2937H16.1329C16.2454 11.275 16.3579 11.35 16.3767 11.4812C16.3954 11.5 16.3954 11.5188 16.3954 11.5375V30.775C16.3954 30.9813 16.3017 31.075 16.1329 31.075H12.4579C12.2892 31.075 12.2142 30.9813 12.2142 30.775V11.5375C12.2142 11.3687 12.3079 11.2937 12.4767 11.2937ZM27.9079 19.2437C27.1767 19.2437 26.4454 19.3937 25.7892 19.7312C25.1517 20.05 24.6079 20.5187 24.1954 21.1187C23.7829 21.7188 23.5767 22.525 23.5767 23.5C23.5579 24.1562 23.6704 24.8125 23.8954 25.4312C24.0829 25.9375 24.3642 26.3875 24.7392 26.7625C25.0954 27.1 25.5267 27.3625 26.0142 27.5125C26.5204 27.6812 27.0454 27.7562 27.5704 27.7562C27.8517 27.7562 28.1142 27.7375 28.3579 27.7188C28.6017 27.7375 28.8267 27.7 29.0329 27.625V19.375C28.8642 19.3375 28.6954 19.3 28.5267 19.2812C28.3204 19.2625 28.1142 19.2437 27.9079 19.2437Z"/>
                 </svg>
             </div>

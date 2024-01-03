@@ -734,7 +734,7 @@ a {
 }
 
 .detail-dot {
-	background-color: black;
+	background-color: currentColor;
     display: block;
     height: 0.25rem;
     width: 0.25rem;
@@ -1031,4 +1031,15 @@ a.footer__link-item {
 
 body {
 	min-height: 100vh;
+}
+
+.gallery-img:hover {
+	flex: 10 !important;
+}
+
+.gallery-img {
+	flex: 1 !important;
+	height: 1000px !important;
+	transition: 0.3s;
+	cursor: pointer;
 }
