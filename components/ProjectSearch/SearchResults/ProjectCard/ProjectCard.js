@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const ProjectCard = ({ title, destination, image, branding, webDev, webDesign, graphicDesign, motionDesign }) => {
     return (
-        <a href={destination} className="project-card border-2 border-stone-950 dark:border-stone-300 p-5 block dark:hover:bg-stone-900 mt-[30px]">
+        <a href={destination} className="project-card max-w-[350px] border-2 border-stone-950 dark:border-stone-300 p-5 block dark:hover:bg-stone-900 mt-[30px]">
             <div className="flex w-full relative h-[300px]">
                 <Image 
                 src={image}
