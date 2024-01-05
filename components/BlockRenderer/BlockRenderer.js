@@ -6,6 +6,7 @@ import { ProjectFeatures } from "components/ProjectFeatures";
 import { ServicesTable } from "components/ServicesTable";
 import { ServicesTech } from "components/ServicesTech";
 import { CallToActionButton } from "components/CallToActionButton";
+import { BackButton } from "components/BackButton";
 import { SmallSpacer } from "components/SmallSpacer";
 import { LargeSpacer } from "components/LargeSpacer";
 import { Column } from "components/Column";
@@ -17,6 +18,7 @@ import { TickItem } from "components/TickItem";
 import { Wrapper } from "components/Wrapper";
 import { theme } from "theme";
 import Image from "next/image";
+
 
 export const BlockRenderer = ({blocks}) => {
     return blocks.map(block => {
@@ -81,6 +83,16 @@ export const BlockRenderer = ({blocks}) => {
             case "acf/ctabutton": {
                 return ( 
                     <CallToActionButton 
+                    key={block.id} 
+                    buttonLabel={block.attributes.data.label} 
+                    destination={block.attributes.data.destination || "/"}
+                    align={block.attributes.data.align } 
+                    /> 
+                );
+            }
+            case "acf/backbutton": {
+                return ( 
+                    <BackButton 
                     key={block.id} 
                     buttonLabel={block.attributes.data.label} 
                     destination={block.attributes.data.destination || "/"}

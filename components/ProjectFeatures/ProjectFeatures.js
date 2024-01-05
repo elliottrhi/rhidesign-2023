@@ -5,7 +5,7 @@ export const ProjectFeatures = ({projectName, projectDate, projectDescription, o
     console.log("PROJECT NAME: ", projectName);
     return (
         <>
-            <div className="max-w-[1330px]">
+            <div className="max-w-[1330px] mx-auto">
                 <div className="project-name">
                     <header className="header">
                         <h1 className="border-stone-950 dark:border-stone-300 border-l-2 pl-[20px] pt-[10px] pb-[10px] display uppercase font-secondary strong | col-start-1 row-start-2 lg:row-start-1 flex flex-col items-start">

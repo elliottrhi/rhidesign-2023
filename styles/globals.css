@@ -440,6 +440,23 @@ a {
 	transition: width 0.25s;
 }
 
+#back-button-arrow {
+	display: block;
+	transform: scale(-1,1);
+	width: 20px;
+	height: 16px;
+	vertical-align: middle;
+	margin-right: 1rem;
+	object-fit: cover;
+	object-position: center right;
+	transition: width 0.25s;
+}
+
+.btn:hover #back-button-arrow {
+	width: 25px;
+	transition: width 0.25s;
+}
+
 .btn:hover #button-arrow {
 	width: 25px;
 	transition: width 0.25s;

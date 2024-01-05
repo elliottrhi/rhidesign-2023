@@ -2,7 +2,7 @@ import { ProjectCard } from "./ProjectCard";
 
 export const SearchResults = ({ projects }) => {
     return (
-    <div className="max-w-[1440px] mx-auto grid md:grid-cols-3 gap-5 mb-10 ">
+    <div className="max-w-[1340px] mx-auto grid md:grid-cols-3 gap-5 mb-10 ">
         {projects.map(project => 
             <ProjectCard 
             key={project.databaseId} 
